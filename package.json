@@ -1,0 +1,19 @@
+{
+  "name": "grid-animation",
+  "version": "1.0.0",
+  "description": "grid animation with anime.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grid",
+    "animation",
+    "anime.js",
+    "css",
+    "html",
+    "javascript"
+  ],
+  "author": "Osward Gust-Martinez",
+  "license": "ISC"
+}
