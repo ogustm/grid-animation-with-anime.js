@@ -15,5 +15,8 @@
     "javascript"
   ],
   "author": "Osward Gust-Martinez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^3.2.0"
+  }
 }

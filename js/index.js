@@ -1,3 +1,4 @@
+const anime = require('animejs');
 const divForGrid = document.querySelector('.animated-grid');
 const fragment = document.createDocumentFragment();
 const grid = [17,17];
@@ -10,3 +11,11 @@ for(let i = 0; i < numberOfPieces; i++) {
 }
 
 divForGrid.appendChild(fragment);
+
+const animatedGrid = anime.timeline({
+    targets: 'animated-grid div',
+    easing: 'easeInOutSine',
+    delay: anime.stagger(50),
+    loop: true,
+    autoplay:false
+})
